@@ -2,7 +2,7 @@
 
 #### 介绍
 **基于Netty的android端推送sdk**</br>
-使用`Kotlin`编写，主模块只需要引用chat模块
+使用`Kotlin`编写，主模块只需要引用chat模块,可以搭配[服务器代码](https://gitee.com/wanxx/ChatServer.git)
 
 #### 软件架构
 基于Netty的推送sdk,包含心跳、断线重连，在每次网络发生变化或者屏幕变亮（Android6.0 之后的屏幕锁机制）会触发是否要重新连接，
